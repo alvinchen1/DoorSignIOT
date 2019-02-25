@@ -1,6 +1,7 @@
-Windows 10 IoT Core sample code
+Door Sign IoT based on Windows 10 IoT Core sample code
 ===============
 
+Used this:
 [Documentation for this sample](https://developer.microsoft.com/en-us/windows/iot/samples/iotbrowser) 
 
 ## How to download:
