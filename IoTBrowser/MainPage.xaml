@@ -18,7 +18,7 @@
     THE SOFTWARE.
 -->
 <Page
-    x:Class="IoTBrowser.MainPage"
+    x:Class="DoorSignIoT.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:IoTBrowser"
@@ -29,49 +29,6 @@
     VerticalAlignment="Stretch">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="65"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="65"></RowDefinition>
-        </Grid.RowDefinitions>
-
-        <!--Address bar-->
-        <ScrollViewer Grid.Row="0" HorizontalScrollBarVisibility ="Auto" VerticalScrollBarVisibility="Auto">
-            <Grid >
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="10"></ColumnDefinition>
-                    <ColumnDefinition Width="100"></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-                <TextBox Grid.Column="0" x:Name="Web_Address" FontSize="24" TextWrapping="Wrap" Text="http://www.bing.com" VerticalAlignment="Center" VerticalContentAlignment="Center" KeyUp="Web_Address_KeyUp"/>
-                <Button Grid.Column="2" x:Name="Go_Web" Content="Go!" HorizontalAlignment="Right" VerticalAlignment="Center" Height="60" Width="100" Click="Go_Web_Click"/>
-            </Grid>
-        </ScrollViewer>
-
-        <!--Web view control-->
-        <WebView x:Name="webView" Grid.Row="1"/>
-
-        <StackPanel x:Name="MessageStackPanel" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" >
-            <TextBlock x:Name="Message" FontSize="30" Text="Display message here"/>
-            <Button x:Name="MessageDismiss" Content="Ok" HorizontalAlignment="Center" Click="OnMessageDismiss_Click"/>
-        </StackPanel>
-
-        <!--Favorites buttons-->
-        <ScrollViewer Grid.Row="2" HorizontalAlignment="Center" HorizontalScrollBarVisibility ="Auto" VerticalScrollBarVisibility="Auto">
-            <Grid >
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="120"></ColumnDefinition>
-                    <ColumnDefinition Width="15"></ColumnDefinition>
-                    <ColumnDefinition Width="120"></ColumnDefinition>
-                    <ColumnDefinition Width="15"></ColumnDefinition>
-                    <ColumnDefinition Width="120"></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-                <Button Grid.Column="0" x:Name="Go_WOD" VerticalAlignment="Center" HorizontalAlignment="Center" Height="60" Width="120" Click="Go_WOD_Click">
-                    <TextBlock Text="Windows on Devices" TextWrapping="Wrap"/>
-                </Button>
-                <Button Grid.Column="2" x:Name="Go_Hackster" Content="Hackster.io" VerticalAlignment="Center" Height="60" Width="120" Click="Go_Hackster_Click"/>
-                <Button Grid.Column="4" x:Name="Go_GitHub" Content="GitHub.com" VerticalAlignment="Center" Height="60" Width="120" Click="Go_GitHub_Click"/>
-            </Grid>
-        </ScrollViewer>
+        <WebView x:Name="webView"/>
     </Grid>
 </Page>

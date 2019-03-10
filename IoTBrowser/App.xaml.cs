@@ -1,6 +1,7 @@
 ﻿// Copyright (c) Microsoft. All rights reserved.
 
 
+using DoorSignIoT;
 using System;
 using System.Collections.Generic;
 using System.IO;
