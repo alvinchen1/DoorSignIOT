@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\IoTBrowser",
+    "\\IoTBrowser\\obj",
+    "\\IoTBrowser\\obj\\ARM",
+    "\\IoTBrowser\\obj\\ARM\\Debug",
+    "\\IoTBrowser\\obj\\ARM\\Release",
+    "\\IoTBrowser\\obj\\x64"
   ],
+  "SelectedNode": "\\DoorSign.sln",
   "PreviewInSolutionExplorer": false
 }
