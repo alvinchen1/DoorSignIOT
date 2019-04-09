@@ -298,3 +298,5 @@
 /IoTBrowser/obj/ARM/Debug/App.xaml
 /IoTBrowser/obj/ARM/Debug/App.g.i.cs
 /IoTBrowser/obj/ARM/Debug/App.g.cs
+/.vs/DoorSign/v16/Server/sqlite3
+/IoTBrowser/AppPackages/DoorSignIoT_1.0.5.0_Debug_Test

@@ -19,8 +19,8 @@ namespace DoorSignIoT
         public void DispatcherTimerSetup()
         {
             dispatcherTimer = new DispatcherTimer();
-            dispatcherTimer.Tick += dispatcherTimer_Tick;
-            dispatcherTimer.Interval = new TimeSpan(0, 0, 60);
+            dispatcherTimer.Tick += DispatcherTimer_Tick;
+            dispatcherTimer.Interval = new TimeSpan(0, 0, 240);
             dispatcherTimer.Start();
         }
         public MainPage()
@@ -35,7 +35,7 @@ namespace DoorSignIoT
             var address = "https://doorsignwebsite20190224061537.azurewebsites.net/";
             webView.Navigate(new Uri(address));
         }
-        void dispatcherTimer_Tick(object sender, object e)
+        void DispatcherTimer_Tick(object sender, object e)
         {
             webView.Refresh();
         }

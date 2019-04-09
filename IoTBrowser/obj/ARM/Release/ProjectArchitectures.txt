@@ -1,0 +1,1 @@
+C:\Users\alvche\Source\Repos\DoorSignIOT\IoTBrowser\DoorSignIoT.csproj;arm

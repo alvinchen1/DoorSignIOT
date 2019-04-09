@@ -1,0 +1,2 @@
+MainPackage=C:\Users\alvche\Source\Repos\DoorSignIOT\IoTBrowser\bin\x64\Debug\DoorSignIoT_1.0.5.0_x64_Debug.appx
+SymbolPackage=C:\Users\alvche\Source\Repos\DoorSignIOT\IoTBrowser\obj\x64\Debug\Symbols\DoorSignIoT_1.0.5.0_x64_Debug.appxsym
